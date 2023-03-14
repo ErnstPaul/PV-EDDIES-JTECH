@@ -7,7 +7,12 @@ Copyright (C) 2022 Paul Ernst, Bulusu Subrahmanyam,
 
 Primary Author: Paul Ernst
 Special Thanks To: Le Vu, L'Hégaret, Nencioli, Pegliasco for code from other applications
-Date Of Writing:    1/12/2023
+
+Additional Code Used (Placed in Functions Folder under subfolders m_map and GSW): 
+M_Map: https://www.eoas.ubc.ca/~rich/map.html
+GSW Toolbox: https://www.teos-10.org/software.htm
+
+Date Of Writing:    3/14/2023
 
 Contact Information:
 
@@ -31,22 +36,26 @@ Step 4: You can use Paul_OPT_RunParticleTracking.m with the functions in the PAR
 Each file has a short description of the purpose/inputs/outputs and the main user-tuned inputs are at the top of the file after the header. You may find you need to tinker around with specific values to get the results you want; the code is generally well commented in sections where a user might need to tune values.
 
 PATH DESCRIPTIONS:
-Folder COMPARISON:
-	This is where each run's files will go for the optimization suite.
+
 Folder EDDYTRACKING:
 	This is where the files for the Eddy Tracking code (Pegliasco 2016 version) live.
-Folder EXTRACTION:
-	This is where the results of the full tracking live (individual files, eddy maps, trajectories)
-Folder FIGURES: 
-	This is where the figures from all of the files will live.
 Folder FUNCTIONS:
 	All minor helper functions and packages (m_map, gsw toolbox) live.
 Folder PARTICLE_TRACKING:
 	The Particle Tracking subfunctions live here.
+	
+EMPTY OUTPUT FOLDERS THAT THIS PROGRAM WILL CREATE:
+
+Folder COMPARISON:
+	This is where each run's files will go for the optimization suite.
+Folder EXTRACTION:
+	This is where the results of the full tracking live (individual files, eddy maps, trajectories)
+Folder FIGURES: 
+	This is where the figures from all of the files will live.
 Folder SIMILARITIES_FINAL:
 	The final compiled .mat files for the optimization suite live here.
 
-Feel free to contact me with any other questions.
+Feel free to contact me (pernst@seoe.sc.edu) with any other questions.
 
 Terms:	  
 
